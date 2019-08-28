@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Tipos de Variables</title> 
+</head>
+<body>
+    <script>
+        //tipos de datos:
+        //String 
+        var miNombre;
+        miNombre = "Eva"; 
+        var apellido1 = "Cobo";
+        var apellido2 = "Gómez";
+        //Number 
+        var edad = 26;
+        //Array
+        var diassemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+        var valorgravedad = 9.8;     
+        var numerosimpares = ["1" , "3" , "5"]
+    </script>
+</body>
+</html>
