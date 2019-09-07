@@ -12,8 +12,8 @@
     var cinco="Almudena";
     var seis="Cristina";
     var uniontrabajo= uno+dos+tres;
-    var unionpiso= dos+cuatro+cinco+seis 
-    var amigas=(unionpiso+uniontrabajo)
+    var unionpiso= dos+cuatro+cinco+seis; 
+    var amigas=(unionpiso+uniontrabajo);
     document.write(uniontrabajo);
     document.write(unionpiso);
     document.write(amigas);
