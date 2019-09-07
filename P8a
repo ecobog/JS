@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Ejesricio concatenación de cadenas</title>
+</head>
+<body>
+<script type="text/javascript">
+    var uno="Esther";
+    var dos="Eva";
+    var tres="Carlota";
+    var cuatro="Sandra";
+    var cinco="Almudena";
+    var seis="Cristina";
+    var uniontrabajo= uno+dos+tres;
+    var unionpiso= dos+cuatro+cinco+seis 
+    var amigas=(unionpiso+uniontrabajo)
+    document.write(uniontrabajo);
+    document.write(unionpiso);
+    document.write(amigas);
+</script>
+</body>
+</html>
