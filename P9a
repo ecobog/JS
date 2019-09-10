@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a [["Eva", Víctor], [98,93], [1,14], ["Enero","Febrero"]];
+        alert(a.lenght);
+        //Longitud del array
+        alert(a[2].lenght);
+        //Longitud de uno de los elementos del array
+        alert(a[2][1]);
+        //Tercer elemento de la lista del array, y dentro de ese, su segundo elemento.
+    </script>
+</body>
+</html>
