@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var dias = ["Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo"];
+        // dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+        var ciudades = ["Madrid, Sevilla, Barcelona, Valencia, Zaragoza, Bilbao, Donosti"];
+        // ciudades = ["Madrid", "Sevilla", "Barcelona", "Valencia", "Zaragoza", "Bilbao", "Donosti"]
+        document.write(dias[0] + ciudades[0]);
+        document.write("<br>")
+        document.write(dias[1], ciudades[1]);
+        document.write("<br>")
+        document.write(dias[2], ciudades[2]);
+        document.write("<br>")
+        document.write(dias[3], ciudades[3]);
+        document.write("<br>")
+        document.write(dias[4], ciudades[4]);
+        document.write("<br>")
+        document.write(dias[5], ciudades[5]);
+        document.write("<br>")
+        document.write(dias[6], ciudades[6]);
+        document.write("<br>")
+    </script>
+</body>
+</html>
