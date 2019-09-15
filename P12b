@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Números</title>
+</head>
+<body>
+    <script>
+        function esMayorQue(numero_a_comprobar, mayor_que)  {
+  	    return (numero_a_comprobar > mayor_que);
+        }
+        console.log(esMayorQue(40, 10)); 
+        console.log(esMayorQue(59, 83)); 
+        var mayor1 = 40;
+        var menor1 = 10;
+        var mayor2 = 83;
+        var menor2 = 59;
+        var miFuncion2 = function(mayor1, mayor2, menor1, menor2) {
+        return mayor1 + mayor2;
+        return menor1 + menor2; 
+        }
+    </script>
+</body>
+</html>
