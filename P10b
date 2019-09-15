@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    var cantidadDeNumeros = 50;
+    var myArray = [];
+    while(myArray.length (cantidadDeNumeros)){
+        var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+        var ex = false;
+    for(var i=0;i<myArray.length;i++){
+	    if(myArray [i] == numeroAleatorio){
+        ex = true;
+        }
+        }
+    if(!ex){
+        myArray[myArray.length] = numeroAleatorio;
+        }
+        document.write("numeros aleatorios 1:100" + myArray);     
+    var pares = numeroAleatorio.filter(function(numeroAleatorio){
+    return numeroAleatorio% 2 == 0;
+    }
+    var impares = numeroAleatorio.filter(function(numeroAleatorio){
+    return numeroAleatorio% 1 == 0;
+    }
+</script>
+</body>
+</html>
